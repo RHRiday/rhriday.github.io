@@ -147,9 +147,20 @@
       #resume a:hover {
          text-decoration: underline !important;
       }
-      .medium-zoom-image--opened, .medium-zoom-overlay {
+
+      .medium-zoom-image--opened,
+      .medium-zoom-overlay {
          z-index: 999 !important;
-}
+      }
+
+      .extra-text span {
+         text-transform: none;
+         font-size: 13px;
+         background: #1aff6721;
+         padding: 3px;
+         border-radius: 2px;
+      }
+
       .skills-section,
       .timeline-section {
          float: left;
@@ -574,8 +585,8 @@
                      </button>
                   </span>
                </li>
-               <li><label>GitHub</label><span class="word-wrap"><a
-                        href="https://github.com/RHRiday" target="_blank" rel="noopener noreferrer">github.com/RHRiday</a></span></li>
+               <li><label>GitHub</label><span class="word-wrap"><a href="https://github.com/RHRiday" target="_blank"
+                        rel="noopener noreferrer">github.com/RHRiday</a></span></li>
             </ul>
          </div>
 
@@ -984,7 +995,7 @@
                <li><a href="" class="transition" data-filter=".photoshop">Photoshop</a></li>
                <li><a href="" class="transition" data-filter=".illustration">Illustration</a></li>
             </ul>
-            <div class="extra-text">Just showing off &#128513</div>
+            <div class="extra-text">Just showing off &#128513 <span>Click any project to view original</span></div>
             <ul id="portfolio-list">
                <li class="illustration">
                   <a class="folio">
@@ -1002,7 +1013,8 @@
                   </a>
                </li>
                <li class="webdesign">
-                  <a href="https://github.com/RHRiday/OnlineBanking" target="_blank" rel="noopener noreferrer" class="folio">
+                  <a href="https://github.com/RHRiday/OnlineBanking" target="_blank" rel="noopener noreferrer"
+                     class="folio">
                      <img src="images/7-thumb.jpg" alt="">
                      <h2 class="title">OnlineBanking</h2>
                      <span class="categorie">Web Design</span>
@@ -1053,7 +1065,8 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.1.0/jquery.carouFredSel.packed.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.1.0/jquery.carouFredSel.packed.min.js">
+   </script>
    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
    <script src="js/main.js"></script>
    <script src="js/bootstrap.min.js"></script>
