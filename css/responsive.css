@@ -1,0 +1,55 @@
+@media (min-width: 320px) and (max-width: 991px) {
+    .full-wide {
+        max-width: 860px !important;
+    }
+
+    .left-name h2 {
+        font-size: 54px;
+    }
+
+    .left-address span {
+        width: 100%;
+    }
+
+    .sn {
+        font-size: 23px;
+        width: 58px;
+        height: 58px;
+        border: 3px dotted #496de8;
+        padding-top: 8px;
+    }
+
+    .sn img {
+        width: 36px;
+    }
+
+    .right-skills:after,
+    .right-skills:before {
+        content: none;
+    }
+
+    .top-skills {
+        max-width: 100%;
+    }
+
+    .right-skills {
+        border-left: 0px solid #496de8;
+        max-width: 100%;
+    }
+
+    .col-md-4.intetst-box {
+        width: 50%;
+    }
+
+    .address-right-box {
+        padding: 34px 0px 0px;
+    }
+
+    .right-skills {
+        width: auto;
+    }
+
+    .qr-box img {
+        width: 125px;
+    }
+}
