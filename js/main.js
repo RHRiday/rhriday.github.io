@@ -183,15 +183,17 @@ jQuery(document).ready(function(){
 
 	//copy e-mail
 	var copyMail = document.getElementById('copyMail');
-      var clipboard = new ClipboardJS(copyMail);
+	var clipboard = new ClipboardJS(copyMail);
+	clipboard.on('error', function (e) {
+		console.log(e);
+	});
 
-      clipboard.on('success', function (e) {
-        console.log(e);
-      });
-
-      clipboard.on('error', function (e) {
-        console.log(e);
-	  });
+	//copy phone
+	var copyPhone = document.getElementById('copyPhone');
+	var clipboard = new ClipboardJS(copyPhone);
+	clipboard.on('error', function (e) {
+		console.log(e);
+	});
 	  
 	//zooming images
 	mediumZoom('.zoom', {
